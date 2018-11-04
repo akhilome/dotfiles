@@ -1,5 +1,5 @@
 # My Prefered theme
-ZSH_THEME="gitster"
+ZSH_THEME="kay"
 
 # My Plugins
 plugins=(
