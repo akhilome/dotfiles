@@ -3,10 +3,11 @@
   "window.zoomLevel": -1,
   "breadcrumbs.enabled": false,
   "editor.fontLigatures": true,
-  "editor.fontFamily": "'Fira Code','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontFamily": "'Dank Mono','Fira Code', 'Helvetica', 'monospace', monospace",
+  "editor.fontSize": 14
   "editor.multiCursorModifier": "ctrlCmd",
   "workbench.statusBar.feedback.visible": false,
-  "workbench.colorTheme": "Cobalt2",
+  "workbench.colorTheme": "Night Owl",
   "extensions.ignoreRecommendations": false,
   "workbench.startupEditor": "newUntitledFile",
   "terminal.integrated.rendererType": "dom",
