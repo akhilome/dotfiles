@@ -1,0 +1,33 @@
+{
+  "Import shallow from enzyme": {
+    "prefix": "ims",
+    "body": "import { shallow } from 'enzyme';",
+    "description": "Import shallow from enzyme 🔥"
+  },
+  "Import React && ReactDOM &&& Render to DOM": {
+    "prefix": "rrdr",
+    "body": [
+      "import React from 'react';",
+      "import ReactDOM from 'react-dom';",
+      "import App from './components/App';",
+      "\n$2\n",
+      "ReactDOM.render(<App />, document.querySelector('$1'));\n"
+    ],
+    "description": "Import React & ReactDOM && Render 🔥🔥🔥"
+  },
+  "Import Default": {
+    "prefix": "impd",
+    "body": "import $1 from '$2';",
+    "description": "import default exports"
+  },
+  "Export Default": {
+    "prefix": "expd",
+    "body": "export default $1;\n",
+    "description": "export default something 😀"
+  },
+  "Event.preventDefault()": {
+    "prefix": "pdf",
+    "body": "$1.preventDefault();\n",
+    "description": "event.preventDefault() 😁"
+  }
+}
