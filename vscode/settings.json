@@ -3,19 +3,25 @@
   "window.zoomLevel": -1,
   "breadcrumbs.enabled": false,
   "editor.fontLigatures": true,
-  "editor.fontFamily": "'Dank Mono','Fira Code', 'Helvetica', 'monospace', monospace",
-  "editor.fontSize": 14
+  "editor.fontFamily": "'Dank Mono', 'Fira Code', 'monospace', monospace",
   "editor.multiCursorModifier": "ctrlCmd",
   "workbench.statusBar.feedback.visible": false,
   "workbench.colorTheme": "Night Owl",
   "extensions.ignoreRecommendations": false,
-  "workbench.startupEditor": "newUntitledFile",
-  "terminal.integrated.rendererType": "dom",
   "explorer.confirmDelete": false,
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontSize": 14,
   "emmet.includeLanguages": {
-      "javascript": "javascriptreact"
-  }
+    "javascript": "javascriptreact"
+  },
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.explorerKind": "external",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontSize": 14,
+  "prettier.singleQuote": true,
+  "prettier.eslintIntegration": true,
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": true,
+  "gitlens.mode.active": "zen"
 }
