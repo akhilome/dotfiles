@@ -1,5 +1,5 @@
 # My Prefered theme
-POWERLEVEL9K_MODE='nerdfont-complete'
+POWERLEVEL9K_MODE="nerdfont-complete"
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # My Plugins
