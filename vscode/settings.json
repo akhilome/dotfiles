@@ -12,6 +12,7 @@
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "<preffered nerdfont/patched font here>",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
@@ -21,7 +22,5 @@
   "editor.fontSize": 14,
   "prettier.singleQuote": true,
   "prettier.eslintIntegration": true,
-  "editor.formatOnSave": false,
-  "editor.formatOnPaste": true,
   "gitlens.mode.active": "zen"
 }
