@@ -5,6 +5,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # My Plugins
 plugins=(
   git
+  yarn
   zsh-syntax-highlighting
   zsh-autosuggestions
 )
@@ -24,14 +25,14 @@ POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND='015'
 POWERLEVEL9K_DIR_HOME_FOREGROUND='015'
 POWERLEVEL9K_VCS_CLEAN_FOREGROUND='green'
 POWERLEVEL9K_VCS_CLEAN_BACKGROUND='black'
-POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND='red'
-POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND='black'
-POWERLEVEL9K_VCS_MODIFIED_FOREGROUND='red'
-POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='black'
+POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND='black'
+POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND='yellow'
+POWERLEVEL9K_VCS_MODIFIED_FOREGROUND='black'
+POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='yellow'
 POWERLEVEL9K_HOME_ICON=''
 POWERLEVEL9K_HOME_SUB_ICON=''
 POWERLEVEL9K_FOLDER_ICON=''
-POWERLEVEL9K_SHORTEN_DIR_LENGTH=3
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
 POWERLEVEL9K_DIR_PATH_SEPARATOR=" \uE0B1 "
 POWERLEVEL9K_SHORTEN_DELIMITER=''
 POWERLEVEL9K_DIR_OMIT_FIRST_CHARACTER=true
@@ -42,33 +43,35 @@ POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 
 # Git
 alias pull='git pull'
-alias gotodevelop='git checkout develop'
 alias gotostaging='git checkout staging'
 alias gcane='git commit --amend --no-edit'
 alias gcame='git commit --amend -m'
 
 # fs
-alias openfastfoodfast='code ~/code/projects/fast-food-fast/'
+alias openfastfoodfast='code ~/code/projects/fast-food-fast/ && q'
 alias fastfoodfast='cd ~/code/projects/fast-food-fast/'
-alias openah='code ~/code/projects/balder/balder-ah-backend/'
-alias openahf='code ~/code/projects/balder/balder-ah-frontend/'
+alias openah='code ~/code/projects/balder/balder-ah-backend/ && q'
+alias openahf='code ~/code/projects/balder/balder-ah-frontend/ && q'
 alias openkiakiafood='code ~/code/projects/kiakiafood/'
 alias ah='cd ~/code/projects/balder/balder-ah-backend'
 alias ahf='cd ~/code/projects/balder/balder-ah-frontend'
 alias kiakiafood='cd ~/code/projects/kiakiafood'
 alias study='cd ~/code/learning/study'
-alias enterexercism='cd /Users/kizitoakhilome/Exercism'
+alias openstudy='code ~/code/learning/study && q'
 alias tembea-bend='cd ~/code/projects/tembea/tembea'
-alias opent='code ~/code/projects/tembea/tembea'
-alias opentf='code ~/code/projects/tembea/tembea-frontend'
+alias opent='tembea-bend && code ~/code/projects/tembea/tembea'
 alias tembea-fend='cd ~/code/projects/tembea/tembea-frontend'
+alias opentf='tembea-fend && code ~/code/projects/tembea/tembea-frontend'
 alias p='cd ~/me/personal'
 alias pj='cd ~/me/personal/journals'
-alias op='code ~/me/personal'
-alias opj='code ~/me/personal/journals'
+alias op='code ~/me/personal && q'
+alias opj='code ~/me/personal/journals && q'
 alias tvng='cd ~/code/projects/tvng'
 
 # sheer laziness
 alias ?='tldr'
 alias cra='create-react-app'
 alias q='exit'
+alias ngrok='~/ngrok http '
+alias t='tree -L 1'
+alias t2='tree -L 2'
