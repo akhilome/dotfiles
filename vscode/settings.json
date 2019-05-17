@@ -1,6 +1,6 @@
 {
   "editor.tabSize": 2,
-  "window.zoomLevel": -1,
+  "window.zoomLevel": -2,
   "breadcrumbs.enabled": false,
   "editor.fontLigatures": true,
   "editor.fontFamily": "'Dank Mono', 'Fira Code', 'monospace', monospace",
@@ -11,16 +11,33 @@
   "explorer.confirmDelete": false,
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "<preffered nerdfont/patched font here>",
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
   "terminal.external.osxExec": "iTerm.app",
   "terminal.explorerKind": "external",
   "workbench.startupEditor": "newUntitledFile",
-  "editor.fontSize": 14,
+  "editor.fontSize": 15,
   "prettier.singleQuote": true,
   "prettier.eslintIntegration": true,
-  "gitlens.mode.active": "zen"
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnSave": true,
+  "gitlens.mode.active": "zen",
+  "git.autofetch": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  }
 }
