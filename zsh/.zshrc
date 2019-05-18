@@ -1,8 +1,11 @@
-# My Prefered theme
-POWERLEVEL9K_MODE="nerdfont-complete"
-ZSH_THEME="powerlevel9k/powerlevel9k"
+# Path to your oh-my-zsh installation.
+export ZSH="/Users/kizitoakhilome/.oh-my-zsh"
 
-# My Plugins
+POWERLEVEL9K_MODE="nerdfont-complete"
+ZSH_THEME="powerlevel10k/powerlevel10k"
+PURE_POWER_MODE=fancy
+
+# Plugins
 plugins=(
   git
   yarn
@@ -11,35 +14,17 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+source ~/.purepower
 
-# powerlevel9k
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
-POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-POWERLEVEL9K_RPROMPT_ON_NEWLINE=true
-POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="%F{099}\u256D\u2500%f"
-POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%F{099}\u2570%F{099}\uF460%F{099}\uF460%F{099}\uF460%f "
-POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND='099'
-POWERLEVEL9K_DIR_HOME_BACKGROUND='099'
-POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND='015'
-POWERLEVEL9K_DIR_HOME_FOREGROUND='015'
-POWERLEVEL9K_VCS_CLEAN_FOREGROUND='green'
-POWERLEVEL9K_VCS_CLEAN_BACKGROUND='black'
-POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND='black'
-POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND='yellow'
-POWERLEVEL9K_VCS_MODIFIED_FOREGROUND='black'
-POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='yellow'
-POWERLEVEL9K_HOME_ICON=''
-POWERLEVEL9K_HOME_SUB_ICON=''
-POWERLEVEL9K_FOLDER_ICON=''
-POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
-POWERLEVEL9K_DIR_PATH_SEPARATOR=" \uE0B1 "
-POWERLEVEL9K_SHORTEN_DELIMITER=''
-POWERLEVEL9K_DIR_OMIT_FIRST_CHARACTER=true
-POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
+# NODE VERSION MANAGER
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+# Yarn
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
-### My custom aliases (in addition to zsh's git aliased
+### My custom aliases (in addition to zsh's git aliases)
 
 # Git
 alias pull='git pull'
