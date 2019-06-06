@@ -1,4 +1,5 @@
 # Original location: https://github.com/romkatv/dotfiles-public/blob/master/.purepower.
+# This is a slight spin on the original purepower zsh theme by @romkatv
 if test -z "${ZSH_VERSION}"; then
   echo "purepower: unsupported shell; try zsh instead" >&2
   return 1
