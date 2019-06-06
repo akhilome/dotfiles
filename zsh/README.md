@@ -87,3 +87,9 @@ git clone --depth=1 https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTO
 ## Putting It All Together
 
 copy the content of `.zshrc` into `~/.zshrc` making modifications as required.
+
+## Side Note
+
+Terminal: ITerm2
+Color Scheme for both ITerm & VS Code: [Night Owl](https://github.com/sdras/night-owl-vscode-theme)
+Font: [Dank Mono](https://dank.sh/)
