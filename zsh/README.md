@@ -68,7 +68,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 ```
 
-- Save `.purepower` to `~`
+- Save `.purepower` to `~`:
+
+```sh
+curl https://raw.githubusercontent.com/akhilome/dotfiles/master/zsh/.purepower > ~/.purepower
+```
 
 ## Installing Plugins
 
@@ -86,7 +90,12 @@ git clone --depth=1 https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTO
 
 ## Putting It All Together
 
-copy the content of `.zshrc` into `~/.zshrc` making modifications as required.
+copy the content of `.zshrc` into `~/.zshrc` making modifications as required:
+
+```sh
+# note, this ovewrites the existing .zshrc in your $HOME
+curl https://raw.githubusercontent.com/akhilome/dotfiles/master/zsh/.zshrc > ~/.zshrc
+```
 
 ## Side Note
 
