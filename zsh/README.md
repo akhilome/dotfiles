@@ -1,6 +1,6 @@
 # Configuring ZSH
 
-Some shot's of the current terminal UI:
+Some shots of the current terminal UI:
 
 ![ls](screenshots/ls.png)
 
@@ -90,6 +90,6 @@ copy the content of `.zshrc` into `~/.zshrc` making modifications as required.
 
 ## Side Note
 
-Terminal: ITerm2
-Color Scheme for both ITerm & VS Code: [Night Owl](https://github.com/sdras/night-owl-vscode-theme)
-Font: [Dank Mono](https://dank.sh/)
+- Terminal: ITerm2
+- Color Scheme for both ITerm & VS Code: [Night Owl](https://github.com/sdras/night-owl-vscode-theme)
+- Font: [Dank Mono](https://dank.sh/)
