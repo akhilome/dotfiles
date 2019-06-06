@@ -1,5 +1,17 @@
 # Configuring ZSH
 
+Some shot's of the current terminal UI:
+
+![ls](screenshots/ls.png)
+
+ls-ing with `tree`:
+
+![tree](screenshots/tree.png)
+
+VS Code's integrated terminal:
+
+![vscode](screenshots/code.png)
+
 ## Installing ZSH
 
 - For Ubuntu/Deb, get the package from apt:
@@ -55,6 +67,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ```sh
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 ```
+
 - Save `.purepower` to `~`
 
 ## Installing Plugins
