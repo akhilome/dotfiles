@@ -2,7 +2,7 @@
 
 Some shots of the current terminal UI:
 
-![ls](screenshots/ls.png)
+![terminal](screenshots/terminal.png)
 
 ls-ing with `tree`:
 
@@ -99,6 +99,6 @@ curl https://raw.githubusercontent.com/akhilome/dotfiles/master/zsh/.zshrc > ~/.
 
 ## Side Note
 
-- Terminal: ITerm2
-- Color Scheme for both ITerm & VS Code: [Night Owl](https://github.com/sdras/night-owl-vscode-theme)
+- Terminal: Terminal.app (the default terminal which ships with all macs)
+- Color Scheme for both Terminal.app & VS Code: [Night Owl](https://github.com/sdras/night-owl-vscode-theme)
 - Font: [Dank Mono](https://dank.sh/)
