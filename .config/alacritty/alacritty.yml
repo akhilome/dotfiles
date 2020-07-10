@@ -1,0 +1,74 @@
+window:
+  padding:
+    x: 2
+    y: 4
+
+# Font configuration
+font:
+  normal:
+    family: iA Writer Mono V
+    style: Regular
+  bold:
+    family: iA Writer Mono V
+    style: Bold
+  italic:
+    family: iA Writer Mono V
+    style: Italic
+
+  size: 14.0
+
+  offset:
+    x: 0
+    y: 1
+
+  use_thin_strokes: false
+
+# Colors (Night Owl by Sarah Drasner)
+colors:
+  # Default colors
+  primary:
+    background: '0x011627'
+    foreground: '0xd6deeb'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0xffffff'
+    cursor: '0xc792ea'
+
+  # Normal colors
+  normal:
+    black:   '0x000000'
+    red:     '0xef5350'
+    green:   '0x22da6e'
+    yellow:  '0xaddb67'
+    blue:    '0x82aaff'
+    magenta: '0x7e57c2'
+    cyan:    '0x21c7a8'
+    white:   '0xffffff'
+
+  # Bright colors
+  bright:
+    black:   '0x575656'
+    red:     '0xef5350'
+    green:   '0x22da6e'
+    yellow:  '0xffeb95'
+    blue:    '0x82aaff'
+    magenta: '0xc792ea'
+    cyan:    '0x7fdbca'
+    white:   '0xffffff'
+
+  # Dim colors
+  dim:
+    black:   '0x131415'
+    red:     '0xef5350'
+    green:   '0x22da6e'
+    yellow:  '0xffeb95'
+    blue:    '0x82aaff'
+    magenta: '0xc792ea'
+    cyan:    '0x7fdbca'
+    white:   '0xfefefe'
+
+cursor:
+  style: Beam
+
+background_opacity: 0.9
