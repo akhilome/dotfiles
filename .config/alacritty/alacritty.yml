@@ -23,50 +23,70 @@ font:
 
   use_thin_strokes: false
 
-# Colors (Night Owl by Sarah Drasner)
+############################################################
+
+# # Colors (Nightfly)
+# colors:
+#    # Default colors
+#   primary:
+#      background: '#011627'
+#      foreground: '#acb4c2'
+
+#   cursor:
+#     text: '#fafafa'
+#     cursor: '#9ca1aa'
+
+#   selection:
+#     text: '#080808'
+#     background: '#b2ceee'
+
+#    # Normal colors
+#   normal:
+#     black:   '#1d3b53'
+#     red:     '#fc514e'
+#     green:   '#a1cd5e'
+#     yellow:  '#e3d18a'
+#     blue:    '#82aaff'
+#     magenta: '#c792ea'
+#     cyan:    '#7fdbca'
+#     white:   '#a1aab8'
+
+#    # Bright colors
+#   bright:
+#     black:   '#7c8f8f'
+#     red:     '#ff5874'
+#     green:   '#21c7a8'
+#     yellow:  '#ecc48d'
+#     blue:    '#82aaff'
+#     magenta: '#ae81ff'
+#     cyan:    '#7fdbca'
+#     white:   '#d6deeb'
+
+# Colors (substrata)
 colors:
-  # Default colors
   primary:
-    background: '0x011627'
-    foreground: '0xd6deeb'
-
-  # Colors the cursor will use if `custom_cursor_colors` is true
-  cursor:
-    text: '0xffffff'
-    cursor: '0xc792ea'
-
-  # Normal colors
+    background: '#191c25'
+    foreground: '#b5b4c9'
   normal:
-    black:   '0x000000'
-    red:     '0xef5350'
-    green:   '0x22da6e'
-    yellow:  '0xaddb67'
-    blue:    '0x82aaff'
-    magenta: '0x7e57c2'
-    cyan:    '0x21c7a8'
-    white:   '0xffffff'
-
-  # Bright colors
+    black:   '#2e313d'
+    red:     '#cf8164'
+    green:   '#76a065'
+    yellow:  '#ab924c'
+    blue:    '#8296b0'
+    magenta: '#a18daf'
+    cyan:    '#659ea2'
+    white:   '#b5b4c9'
   bright:
-    black:   '0x575656'
-    red:     '0xef5350'
-    green:   '0x22da6e'
-    yellow:  '0xffeb95'
-    blue:    '0x82aaff'
-    magenta: '0xc792ea'
-    cyan:    '0x7fdbca'
-    white:   '0xffffff'
+    black:   '#5b5f71'
+    red:     '#fe9f7c'
+    green:   '#92c47e'
+    yellow:  '#d2b45f'
+    blue:    '#a0b9d8'
+    magenta: '#c6aed7'
+    cyan:    '#7dc2c7'
+    white:   '#f0ecfe'
 
-  # Dim colors
-  dim:
-    black:   '0x131415'
-    red:     '0xef5350'
-    green:   '0x22da6e'
-    yellow:  '0xffeb95'
-    blue:    '0x82aaff'
-    magenta: '0xc792ea'
-    cyan:    '0x7fdbca'
-    white:   '0xfefefe'
+############################################################
 
 cursor:
   style: Beam
