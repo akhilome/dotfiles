@@ -101,6 +101,6 @@ curl https://raw.githubusercontent.com/akhilome/dotfiles/master/zsh/.zshrc > ~/.
 
 - ~~Terminal: Terminal.app (the default terminal which ships with all macs)~~
 - Terminal: Alacritty
-- Color Scheme for both Alacritty: [Night Owl](https://github.com/sdras/night-owl-vscode-theme)
+- Color Scheme for Alacritty: [substrata](https://github.com/arzg/vim-substrata)
 - Color Scheme for VS Code: Tokyo Night Storm
 - Font: iA Writer
