@@ -52,7 +52,6 @@ if [[ $TERM == screen ]]; then
   export TERM=screen-256color
 fi
 
-
 ###################### xxxx #######################
 # export ENV1="val1"
 # export ENV2="val2"
