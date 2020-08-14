@@ -40,6 +40,19 @@ export NODE_ENV="development"
 export BAT_PAGER=""
 export BAT_THEME="OneHalfDark"
 
+###################### less #######################
+export LESS='-R --mouse'
+
+###################### tmux #######################
+if [[ $TERM == xterm ]]; then
+  export TERM=xterm-256color
+fi
+
+if [[ $TERM == screen ]]; then
+  export TERM=screen-256color
+fi
+
+
 ###################### xxxx #######################
 # export ENV1="val1"
 # export ENV2="val2"
@@ -77,3 +90,5 @@ alias tmd='tmux detach'
 alias tmn='tmux new -s'
 alias clr='clear'
 alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
+alias n='nvim '
+alias fixyarn='brew unlink yarn && brew link yarn'
