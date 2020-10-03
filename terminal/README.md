@@ -4,10 +4,6 @@ Some shots of the current terminal UI:
 
 ![terminal](screenshots/terminal.png)
 
-ls-ing with `tree`:
-
-![tree](screenshots/tree.png)
-
 VS Code's integrated terminal:
 
 ![vscode](screenshots/code.png)
@@ -99,8 +95,8 @@ curl https://raw.githubusercontent.com/akhilome/dotfiles/master/zsh/.zshrc > ~/.
 
 ## Side Note
 
-- ~~Terminal: Terminal.app (the default terminal which ships with all macs)~~
-- Terminal: Alacritty
-- Color Scheme for Alacritty: [substrata](https://github.com/arzg/vim-substrata)
+- Terminal: Terminal.app (the default terminal which ships with all macs)
+- ~~Terminal: Alacritty~~
+- Color Scheme for Terminal [substrata](https://github.com/arzg/vim-substrata)
 - Color Scheme for VS Code: Tokyo Night Storm
 - Font: iA Writer

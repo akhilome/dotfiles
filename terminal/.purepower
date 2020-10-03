@@ -24,8 +24,7 @@ fi
   typeset -ga POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
   typeset -ga POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
 
-  # local ins=$(_pp_cond '>' '❯')
-  local ins=$(_pp_cond '>' '=>')
+  local ins=$(_pp_cond '>' '❯')
   local cmd=$(_pp_cond '<' '❮')
   if (( ${PURE_POWER_USE_P10K_EXTENSIONS:-1} )); then
     local p="\${\${\${KEYMAP:-0}:#vicmd}:+${${ins//\\/\\\\}//\}/\\\}}}"
@@ -57,7 +56,7 @@ fi
   typeset -g POWERLEVEL9K_{ETC,FOLDER,HOME,HOME_SUB}_ICON=
   typeset -g POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
   typeset -g POWERLEVEL9K_SHORTEN_DELIMITER=''
-  typeset -g POWERLEVEL9K_DIR_OMIT_FIRST_CHARACTER=true
+  typeset -g POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
 
   typeset -g POWERLEVEL9K_VCS_{CLEAN,UNTRACKED,MODIFIED,LOADING}_BACKGROUND=none
   typeset -g POWERLEVEL9K_VCS_CLEAN_FOREGROUND=$(_pp_cond 002 076)
