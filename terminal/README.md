@@ -67,7 +67,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/the
 - Save `.purepower` to `~`:
 
 ```sh
-curl https://raw.githubusercontent.com/akhilome/dotfiles/master/zsh/.purepower > ~/.purepower
+curl https://raw.githubusercontent.com/akhilome/dotfiles/master/terminal/.purepower > ~/.purepower
 ```
 
 ## Installing Plugins
@@ -90,7 +90,7 @@ copy the content of `.zshrc` into `~/.zshrc` making modifications as required:
 
 ```sh
 # note, this ovewrites the existing .zshrc in your $HOME
-curl https://raw.githubusercontent.com/akhilome/dotfiles/master/zsh/.zshrc > ~/.zshrc
+curl https://raw.githubusercontent.com/akhilome/dotfiles/master/terminal/.zshrc > ~/.zshrc
 ```
 
 ## Side Note
